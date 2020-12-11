@@ -9,6 +9,7 @@ from flask import Flask,render_template,url_for,request
 import pandas as pd 
 import pickle
 import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer as wnl
 import re
